@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+table{
+    border-spacing: 0;
+    margin: auto;
+    width: calc(100vw - 100px);
+    margin-top: 25px;
+}
+
+th, td{
+    border: 1px solid #aaa;
+    height: 30px;
+}
+
+th{
+    background-color: greenyellow;
+}
+
+td{
+    padding-left: 25px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 100px);
+    gap: 150px;
+    height: 100px;
+    margin: auto;
+    background-color: greenyellow;
+    border-radius: 0 0 25px 25px;
+}
+
+.btn-head{
+    background-color: #555;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+.active{
+    background-color: aliceblue;
+    color: #555;
+    border: 2px solid #aaa;
+}
+
+.notif{
+    opacity: .7;
+    color: white;
+    height: 50px;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error{
+    background-color: orangered;
+}
+
+.berhasil{
+    background-color: greenyellow;
+    color: #333;
+}
+
+select{
+    height: 30px;
+    text-align: center;
+    background-color: #eee;
+    width: 85%;
+    border-radius: 10px;
+}
+
+.text{
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #333333aa;
+    padding-left: 10px;
+}
+
+.select{
+    width: 86%;
+    display: block;
+    margin-left: auto;
+}
+
+.btn-cont{
+    width: 150px;
+    align-items: center;
+    align-content: center;
+}
+
+.btn-edit, .btn-hapus, .btn-tambah{
+    text-decoration: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    color: black;
+}
+
+.btn-edit{
+    background-color: yellow;
+}
+
+.btn-hapus{
+    background-color: orangered;
+}
+
+.form-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 120px);
+    margin: auto;
+    border-radius: 25px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    background-color: #f0f3f3;
+    margin-top: 25px;
+}
+
+.input{
+    width: calc(100vw - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn-reset, .btn-submit, .btn-tambah{
+    display: block;
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid #33333377;
+}
+
+.btn-tambah{
+    width: 87vw;
+    background-color: lawngreen;
+}
+
+.btn-submit{
+    background-color: lawngreen;
+}
+
+.btn-reset{
+    background-color: yellow;
+}
